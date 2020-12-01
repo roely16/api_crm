@@ -14,7 +14,7 @@
 
 $router->get('/', function () use ($router) {
     return $router->app->version();
-});
+}); 
 
 // Login
 $router->post('login', 'LoginController@login');
